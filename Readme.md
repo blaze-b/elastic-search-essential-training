@@ -114,19 +114,19 @@
         }
 
  2. CRUD - Create / Read / Update / Delete
-     a. Create
+     1. Create
        - Different ways to insert/create an index
        - Bulk indexing documents
-     b. Read
+     2. Read
        - Basic searches
        - Intermediate searches
        - Sample SQL query in Elasticsearch
        - Facets and aggregations
        - Aggregation use cases (doc values vs inverted index?) TODO
        - Sample geo search
-     c. Update
+     3. Update
        - Updating documents TODO
-     d. Delete
+     4. Delete
        - Deleting documents
  3. Mappings
  4. Analyzers
