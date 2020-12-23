@@ -116,7 +116,7 @@
  2. CRUD - Create / Read / Update / Delete
      1. Create
          - Different ways to insert/create an index
-            Eg: [CRUD REST CALL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/crud-insert-doc.es)
+            Eg: [CRUD REST CALL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-insert-doc.es)
          - Bulk indexing documents
      2. Read
          - Basic searches

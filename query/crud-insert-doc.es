@@ -37,7 +37,6 @@ POST /inspections/_doc
 GET /inspections/_doc/_search
 
 # POST creates the document's ID for us
-
 POST /inspections/_doc
 {
   "business_address": "660 Sacramento St",
@@ -92,3 +91,19 @@ PUT /inspections/_doc/12345
   "violation_description": "Unclean nonfood contact surfaces",
   "violation_id": "2228_20160204_103142"
 }
+
+# Indexing the document automatically created the index for us, named "inspection"
+# The document is of type "report" (POST /inspection/report)
+# It is recommeneded to store only one type per index, as multiple types per index will not be supported in the future
+
+# Instead of dynamically creating the index based on the first document we add, we can create the index beforehand, to set certain settings
+DELETE /inspections
+
+PUT /inspections
+{
+  "settings": {
+    "index.number_of_shards": 1,
+    "index.number_of_replicas": 0
+  }
+}
+# We'll use 1 shard for this example, and no replicas, we probably wouldn't want to do this in production
