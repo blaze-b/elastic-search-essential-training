@@ -101,7 +101,7 @@
      - multi-get
      - bulk
 
-### Basic Operation to be done in the Kibana Devtool ###
+### Basic Operation to be done in the Kibana/VS-Code Devtool ###
 
  1. JSON Documents
      Eg: 
