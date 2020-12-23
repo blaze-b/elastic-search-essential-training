@@ -115,20 +115,20 @@
 
  2. CRUD - Create / Read / Update / Delete
      1. Create
-         - Different ways to insert/create an index
-            Eg: [CRUD REST CALL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-insert-doc.es)
-         - Bulk indexing documents
+         - Different ways to insert/create an index, Eg: [CRUD REST CALL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-insert-doc.es)
+         - Bulk indexing documents, Eg: [CRUD BULK INSERT](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-bulk-insert-doc.es)
      2. Read
-         - Basic searches
-         - Intermediate searches
-         - Sample SQL query in Elasticsearch
-         - Facets and aggregations
-         - Aggregation use cases (doc values vs inverted index?) TODO
-         - Sample geo search
+         - Basic searches,Eg: [CRUD BASIC SEARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-search-ops-docs.es)
+         - Intermediate searches, Eg: [BOOLEAN SEARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-boolean-ops-doc.es),
+         [CRUD SORT SERARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-search-ops-sort.es)
+         - Sample SQL query in Elasticsearch, Eg: [CRUD BASIC SQL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-basic-sql.es)
+         - Facets and aggregations, Eg: [CRUD AGGREGATIONS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/aggregations.es)
+         - Aggregation use cases (doc values vs inverted index?) TODO, Eg: [CRUD AGGREGATIONS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/aggregations.es)
+         - Sample geo search, Eg: [GEO SEARCH QUERY](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/geo-location-search.es)
      3. Update
-         - Updating documents TODO
+         - Updating documents, Eg: [UPDATE QUERY](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-updating-deleting.es)
      4. Delete
-         - Deleting documents
- 3. Mappings
- 4. Analyzers
+         - Deleting documents, Eg: [DELETE QUERY](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-updating-deleting.es)
+ 3. Mappings, Eg: [MAPPING PROPETIES IN ELASTIC](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/mapping-field-query.es)
+ 4. Analyzers, Eg: [ANALYZERS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/analyser-token.es)
 
