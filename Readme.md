@@ -120,7 +120,7 @@
      2. Read
          - Basic searches,Eg: [CRUD BASIC SEARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-search-ops-docs.es)
          - Intermediate searches, Eg: [BOOLEAN SEARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-boolean-ops-doc.es),
-         [CRUD SORT SERARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-search-ops-sort.es)
+         [CRUD SORT SEARCH](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-search-ops-sort.es)
          - Sample SQL query in Elasticsearch, Eg: [CRUD BASIC SQL](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-basic-sql.es)
          - Facets and aggregations, Eg: [CRUD AGGREGATIONS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/aggregations.es)
          - Aggregation use cases (doc values vs inverted index?) TODO, Eg: [CRUD AGGREGATIONS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/aggregations.es)
@@ -129,6 +129,6 @@
          - Updating documents, Eg: [UPDATE QUERY](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-updating-deleting.es)
      4. Delete
          - Deleting documents, Eg: [DELETE QUERY](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/crud-updating-deleting.es)
- 3. Mappings, Eg: [MAPPING PROPETIES IN ELASTIC](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/mapping-field-query.es)
+ 3. Mappings, Eg: [MAPPING PROPERTIES IN ELASTIC](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/mapping-field-query.es)
  4. Analyzers, Eg: [ANALYZERS](https://github.com/brianblaze14/elastic-search-essential-training/blob/master/query/analyser-token.es)
 
